@@ -1,0 +1,19 @@
+ Used to_string()  in built func #Line 8 
+      this func helps t0 store integer type to string type 
+
+using namespace std;
+int main()
+{
+     int n=5;
+        string temp="";
+
+        for(int i=0;i<n;i++){
+            string val=to_string(i+1);
+            temp=temp+val;
+        }
+
+        for(int i=0;i<n;i++)
+        {
+            cout<<temp[i];
+        }
+}
